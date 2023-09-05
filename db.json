@@ -1,0 +1,111 @@
+{
+    "MyHome": [
+        {
+            "id": 1,
+            "name": "Camarillo, CA",
+            "image": "https://s3.amazonaws.com/census2020mapboxmaps/most-expensive-camarillo-ca-neighborhoods.webp",
+            "description": "The City of Camarillo is a remarkable business and residential community with much to offer. Nestled in a coastal plain between the beach and mountains, Camarillo offers year-round sunshine in a family-friendly and safe environment, with top-class amenities, global industries, great businesses, and an educated workforce to support them.",
+            "latitude": 39.3992,
+            "longitude": -104.9903,
+            "links": "https://www.ci.camarillo.ca.us/index.php"
+        },
+        {
+            "id": 2,
+            "name": "Denver, CO",
+            "image": "https://gisgeography.com/wp-content/uploads/2020/06/Denver-Map-Colorado-1265x965.jpg",
+            "description": "Denver, the capital of Colorado, is an American metropolis dating to the Old West era. Larimer Square, the city's oldest block, features landmark 19th-century buildings. Museums include the Denver Art Museum, an ultramodern complex known for its collection of indigenous works, and the mansion of famed Titanic survivor Molly Brown. Denver is also a jumping-off point for ski resorts in the nearby Rocky Mountains.",
+            "latitude": 39.7392,
+            "longitude": -104.9903,
+            "links": "https://www.denver.org/"
+        }
+    ],
+    "FAM": [
+        {
+            "id": 1,
+            "name": "Kevin",
+            "image": "IMG_0517.PNG",
+            "description": "Dad"
+        },
+        {
+            "id": 2,
+            "name": "Jennifer",
+            "image": "IMG_5234.jpg",
+            "description": "Mom"
+        },
+        {
+            "id": 3,
+            "name": "Robert",
+            "image": "IMG_4861.jpg",
+            "description": "Brother"
+        },
+        {
+            "id": 4,
+            "name": "Pammy",
+            "image": "IMG_4229.jpg",
+            "description": "Sister"
+        },
+        {
+            "id": 5,
+            "name": "Coco",
+            "image": "IMG_6217.PNG",
+            "description": "Dog"
+        }
+    ],
+    "FavoriteFoods": [
+        {
+            "id": 1,
+            "name": "Cheeseburgers",
+            "image": "https://www.in-n-out.com/ResourcePackages/INNOUT/content/images/menu/cheeseburger-meal.png?package=INNOUT&v=2023"
+        },
+        {
+            "id": 2,
+            "name": "Tacos",
+            "image": "https://www.glutenfreeliving.com/wp-content/uploads/2019/12/Steak-Street-Tacos-c-Kristen-Kilpatrick.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Pizza",
+            "image": "https://www.topperspizzaplace.com/wp-content/uploads/2017/03/pizza-slider1-1024x481.png"
+        },
+        {
+            "id": 4,
+            "name": "Wings",
+            "image": "https://yestoyolks.com/wp-content/uploads/2020/09/IMG_3745.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Fried Chicken",
+            "image": "https://christieathome.com/wp-content/uploads/2020/10/Facetune_06-10-2020-15-37-58-scaled.jpg"
+        }
+    ],
+    "FavoriteSports": [
+        {
+            "id": 1,
+            "name": "Football",
+            "image": "https://media.istockphoto.com/id/148771930/vector/cartoon-american-football.jpg?s=612x612&w=0&k=20&c=8IlQnn-1lr4oVw20B6gD8KgHgp0yoQlpk7Zh0KzPiNE="
+        },
+        {
+            "id": 2,
+            "name": "Soccer",
+            "image": "https://freesvg.org/img/1546090478.png"
+        },
+        {
+            "id": 3,
+            "name": "Golf",
+            "image": "https://previews.123rf.com/images/pandavector/pandavector1705/pandavector170502116/77611437-golf-ball-on-the-stand-golf-club-single-icon-in-cartoon-style-vector-symbol-stock-illustration-web.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Baseball",
+            "image": "https://www.fg-a.com/sports/2021-baseball-bats.jpg"
+        }
+    ],
+    "Goals": [
+        {
+            "id": 1,
+            "name": "To become successful",
+            "image": "https://media.istockphoto.com/id/1124719195/sv/vektor/cartoon-golden-star-vektorillustration-isolated-p%C3%A5-vit-bakgrund.jpg?s=612x612&w=0&k=20&c=aE0C_ETn0m4TbnKSLJQldI2JSDL9X6LBJ27ZVkdgcLg=",
+            "description": "I want to be able to make a lot of money in my job and to be happy."
+        }
+    ]
+}
