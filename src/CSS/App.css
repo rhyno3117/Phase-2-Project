@@ -1,0 +1,39 @@
+#Topbar{
+  border: 10px solid rgb(5, 30, 60);
+  padding: 5px; 
+  background-color: rgb(171, 171, 171);
+  width: 150%;  
+}
+
+#RYME{
+  color: rgb(79, 0, 152);
+}
+
+body {
+  /* background-color: rgb(216, 216, 216);
+  border: 10px solid rgb(0, 0, 0); */
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#menuContainer {
+  display: flex; 
+  align-items: center; 
+}
+
+#menuContainer > div {
+  margin-right: 10px;
+}
+.info-container{
+  color: black;
+}
+img {
+  width: 200px; 
+  height: 150px;  
+   object-fit: cover; 
+}
+ 
