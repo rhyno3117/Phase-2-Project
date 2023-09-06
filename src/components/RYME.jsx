@@ -1,11 +1,14 @@
+//This is the navBar
 import React from 'react'
 import { Link } from 'react-router-dom';
 
 function RYME() {
     return (
         <nav id="Topbar">
-            <h1 id="RYME">RYME 🦏</h1>
+            <Link id="RYME" to="/RYME" >RYME 🦏</Link>
             <div id="menuContainer">
+
+
                 <Link id="MyHome" to="/RYME/myhome" style={{ color: "black" }}>My Home |</Link>
                 <div id="Family">
                     <Link id="Family" to="/RYME/FAM" style={{ color: "black" }}>My Family |</Link>

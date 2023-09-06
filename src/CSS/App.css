@@ -1,17 +1,69 @@
 #Topbar{
+  height: 18vh;
+  width: 100%;
   border: 10px solid rgb(5, 30, 60);
   padding: 5px; 
   background-color: rgb(171, 171, 171);
-  width: 150%;  
+}
+
+.outlined-heading {
+  color: red;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#RYME {
+  font-size: 43px;
+  font-weight: bolder;
+  font-family: Impact, fantasy;
+}
+
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border: 2px solid #000;
+}
+
+.item-box {
+  border: 1px solid #ccc; /* Add a border around each box */
+  padding: 20px; /* Add some padding inside each box */
+  margin: 10px; /* Add margin to create spacing between boxes */
+  background-color: #f0f0f0; /* Set a background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  text-align: center; /* Center text horizontally within the box */
+}
+
+.info-box{
+  border: 1px solid #ccc; /* Add a border around each box */
+  padding: 20px; /* Add some padding inside each box */
+  margin: 10px; /* Add margin to create spacing between boxes */
+  background-color: #f0f0f0; /* Set a background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  text-align: center; /* Center text horizontally within the box */
+}
+
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; 
+}
+
+#starterLogo {
+  font-size: 48px; 
 }
 
 #RYME{
   color: rgb(79, 0, 152);
-}
-
-body {
-  /* background-color: rgb(216, 216, 216);
-  border: 10px solid rgb(0, 0, 0); */
 }
 
 *{
@@ -28,9 +80,11 @@ body {
 #menuContainer > div {
   margin-right: 10px;
 }
+
 .info-container{
   color: black;
 }
+
 img {
   width: 200px; 
   height: 150px;  

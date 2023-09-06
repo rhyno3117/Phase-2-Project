@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes >
-        <Route path={"/"} element={<Link to={"/RYME"} >🦏</Link>} />
+        <Route path={"/"} element={<Link to={"/RYME"} id="starterLogo" className="centered-container" >🦏</Link>} />
         <Route path={"/RYME/*"} element={<MainHome />} />
       </Routes>
     </BrowserRouter>
