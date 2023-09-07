@@ -7,9 +7,10 @@ function RYME() {
         <nav id="Topbar">
             <Link id="RYME" to="/RYME" >RYME 🦏</Link>
             <div id="menuContainer">
+                <div>
+                    <Link id="MyHome" to="/RYME/myhome" style={{ color: "black" }}>My Home |</Link>
+                </div>
 
-
-                <Link id="MyHome" to="/RYME/myhome" style={{ color: "black" }}>My Home |</Link>
                 <div id="Family">
                     <Link id="Family" to="/RYME/FAM" style={{ color: "black" }}>My Family |</Link>
                 </div>
@@ -23,7 +24,6 @@ function RYME() {
                     <Link id="Goals" to="/RYME/goals" style={{ color: "black" }}>Goals |</Link>
                 </div>
             </div>
-
         </nav>
     );
 }

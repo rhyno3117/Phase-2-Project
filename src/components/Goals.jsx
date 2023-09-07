@@ -110,7 +110,7 @@ function Goals() {
         ))}
       </div>
       <div className="add-goal-form">
-        <h2>Add a New Goal</h2>
+        <h2 id="addNewFormRed" style={{ color: 'red' }}>Add a New Goal</h2>
         <form onSubmit={addGoal}>
           <input
             type="text"

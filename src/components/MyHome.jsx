@@ -66,46 +66,47 @@ function MyHome() {
           </li>
         ))}
       </ul>
-
-      <div className="add-data-form">
-        <h2 class="outlined-heading" style={{ color: 'red' }}>Add New Data</h2>
+      <div className="add-data-form" style={{ textAlign: 'center' }}>
+        <h2 className="addNewData" style={{ color: 'red' }}>
+          Add New Data
+        </h2>
         <form>
           <div className="input-group">
-            <label>Name:</label>
             <input
               type="text"
+              placeholder="Name"
               name="name"
               value={newData.name}
               onChange={handleInputChange}
             />
           </div>
           <div className="input-group">
-            <label>Image URL:</label>
             <input
               type="text"
+              placeholder="Image"
               name="image"
               value={newData.image}
               onChange={handleInputChange}
             />
           </div>
           <div className="input-group">
-            <label>Description:</label>
-            <textarea
+            <input
               name="description"
+              placeholder="Description"
               value={newData.description}
               onChange={handleInputChange}
-            ></textarea>
+            />
           </div>
           <div className="input-group">
-            <label>Links:</label>
             <input
               type="text"
+              placeholder="Links"
               name="links"
               value={newData.links}
               onChange={handleInputChange}
             />
           </div>
-          <button type="button" onClick={handleSubmit}>
+          <button className="submitter" type="button" onClick={handleSubmit}>
             Submit
           </button>
         </form>

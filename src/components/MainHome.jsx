@@ -12,8 +12,9 @@ function MainHome() {
   return (
     <>
       <RYME />
+      
       <Routes>
-        <Route path="" element={<div>Hello Image Here</div>} />
+        <Route path="" element={<DefaultHome/>} />
         <Route path="myhome" element={<MyHome />} />
         <Route path="goals" element={<Goals />} />
         <Route path="fam" element={<FAM />} />

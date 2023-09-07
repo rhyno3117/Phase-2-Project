@@ -1,9 +1,16 @@
-#Topbar{
+.carImg{
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+#Topbar {
   height: 18vh;
   width: 100%;
   border: 10px solid rgb(5, 30, 60);
-  padding: 5px; 
-  background-color: rgb(171, 171, 171);
+  padding: 5px;
+  background-color: #9e9e9e;
 }
 
 .outlined-heading {
@@ -17,6 +24,15 @@
   font-family: Impact, fantasy;
 }
 
+#carouselDiv{
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+.thumbs-animated{
+  display: none;
+
+}
 
 #root{
   height: 100vh;
@@ -26,26 +42,25 @@
   align-items: center;
 }
 
-img {
-  border: 2px solid #000;
-}
-
 .item-box {
-  border: 1px solid #ccc; /* Add a border around each box */
+  border: 1px solid #000000; /* Add a border around each box */
   padding: 20px; /* Add some padding inside each box */
   margin: 10px; /* Add margin to create spacing between boxes */
-  background-color: #f0f0f0; /* Set a background color */
+  background-color: #ffffff; /* Set a background color */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
   text-align: center; /* Center text horizontally within the box */
+  opacity: 80%;
+
 }
 
 .info-box{
-  border: 1px solid #ccc; /* Add a border around each box */
+  border: 1px solid #000000; /* Add a border around each box */
   padding: 20px; /* Add some padding inside each box */
   margin: 10px; /* Add margin to create spacing between boxes */
-  background-color: #f0f0f0; /* Set a background color */
+  background-color: #ffffff; /* Set a background color */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
   text-align: center; /* Center text horizontally within the box */
+  opacity: 80%;
 }
 
 
@@ -66,10 +81,10 @@ img {
   color: rgb(79, 0, 152);
 }
 
-*{
-  box-sizing: border-box;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #menuContainer {
@@ -83,11 +98,59 @@ img {
 
 .info-container{
   color: black;
+  
+}
+
+li {
+  height: auto;
 }
 
 img {
   width: 200px; 
-  height: 150px;  
+  /* height: 150px;   */
    object-fit: cover; 
+   border: 2px solid #000;
 }
  
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://media0.giphy.com/media/YqhIK6Gbor6CLeloBq/200w.gif?cid=6c09b952i4rrlcz6kmxksjjpgk4xzcms7r0obyw9pj616iwn&ep=v1_gifs_search&rid=200w.gif&ct=g');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Added a default font */
+}
+
+#addNewFormRed{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  align-items: center; 
+}
+
+
+.submiter{
+  opacity: 80%;
+  background: none;
+  font-weight: bold;
+}
+
+.add-data-form{
+  align-content: center; 
+
+}
+
+
+.addNewData{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+}
+
+/* In your CSS stylesheet
+.blackLine {
+  border: px solid rgb(5, 30, 60); 
+  margin: 20px 0; 
+} */
+
