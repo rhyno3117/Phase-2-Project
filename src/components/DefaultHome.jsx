@@ -32,6 +32,10 @@ function DefaultHome() {
           <img src="public/assets/IMG_8700.jpg" alt="Image 5" className="carImg" style={{ height: 400, width: 400, marginTop: 20 }} />
           <img src="public/assets/IMG_1802.jpg" alt="Image 6" className="carImg" style={{ height: 400, width: 400, marginTop: 20 }} />
         </Carousel>
+        <div style={{ textAlign: 'center' }}>
+          <h1 style={{ fontWeight: 'bold', color: 'red' }} id="nicknames"> Also known as:</h1>
+          <p style={{ marginBottom: '20px', fontWeight: 'bold', color: 'black' }}> RYME, RHYNO, RY</p>
+        </div>
       </div>
     </div>
   );

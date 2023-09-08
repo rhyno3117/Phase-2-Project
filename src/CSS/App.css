@@ -150,3 +150,8 @@ body {
   border: px solid rgb(5, 30, 60); 
   margin: 20px 0; 
 } */
+
+#nicknames{
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+}
