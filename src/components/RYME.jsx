@@ -8,7 +8,7 @@ function RYME() {
             <Link id="RYME" to="/RYME" >RYME 🦏</Link>
             <div id="menuContainer">
                 <div>
-                    <Link id="MyHome" to="/RYME/myhome" style={{ color: "black" }}>My Home |</Link>
+                    <Link id="MyHome" to="/RYME/myhome" style={{ color: "black" }}>My Homes |</Link>
                 </div>
 
                 <div id="Family">
@@ -25,6 +25,8 @@ function RYME() {
                 </div>
             </div>
         </nav>
+        
+
     );
 }
 

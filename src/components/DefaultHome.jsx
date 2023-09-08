@@ -8,7 +8,7 @@ function DefaultHome() {
   useEffect(() => {
     const timer = setInterval(() => {
       // Increment the current index to move to the next slide
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % 6); // Change '4' to the total number of images
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % 6); // Change '6' to the total number of images
     }, 5000); // Change the delay (in milliseconds) to control the slide change interval
 
     return () => {
