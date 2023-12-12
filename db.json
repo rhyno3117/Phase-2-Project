@@ -106,6 +106,13 @@
       "name": "To become successful",
       "description": "I want to be able to make a lot of money in my job and to be happy.",
       "starred": true
+    },
+    {
+      "name": "Finding a Job",
+      "description": "I want to find a job where I can grow and learn the foundations.",
+      "image": "",
+      "starred": true,
+      "id": 2
     }
   ]
 }
